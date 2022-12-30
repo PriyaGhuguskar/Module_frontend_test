@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module test
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="main-page">
+        <div class="text">
+            <h2>My Public IP Address : <span class="ip_add" id="ip-text">
+            </span></h2>
+            
+        </div>
+        <div class="databtn">
+            <button id="btn" type="button">Get Data</button>
+        </div>
+    </div>
+    <div id="data-page">
+        <div class="text">
+            <h2>My Public IP Address : <span class="ip_add" id="ip-text">
+            </span></h2>
+            
+        </div>
+        <div class="order-status-wrapper">
+            <div class="row">
+                <div class="col-md-3 style">Lat : <span id="lat"></span> </div>
+                <div class="col-md-3 style">city: <span id="city"></span> </div>
+                <div class="col-md-5 style">Organisation: <span id="organisation"></span> </div>
+               
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 style">Long : <span id="long"></span> </div>
+                <div class="col-md-3 style">Region: <span id="region"></span></div>
+                <div class="col-md-5 style inputvalue">Hostname: <span id="hostname"></span></div>
+
+            </div>
+
+        </div>
+        <div id="mapimage1">
+            <!-- ------------------ -->
+        </div>
+        <div class="mid-info">
+            <div class="timezone-div style style1">
+                <span>Time Zone:</span>
+                <span id="timeZone"></span>
+            </div>
+            <div class="datetime-div style style1">
+                <span>Date And Time:</span>
+                <span id="dnt"></span>
+            </div>
+            <div class="Pincode-div style style1">
+                <span>Pincode:</span>
+                <span id="Pincode"></span>
+            </div>
+            <div class="message-div style style1 ">
+                <span>Message :</span>
+                <span id="message"></span>
+            </div>
+        </div>
+        <form class="container-fluid">
+            <div class="input-group">
+              <span class="input-group-text " id="basic-addon1"><img src="search.svg" alt=""></span>
+              <input type="text" class="form-control" placeholder="Filter" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            </form>
+       
+
+            <div class="order-status-wrapper">
+                <div class="row" id="order-card">
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+   
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
